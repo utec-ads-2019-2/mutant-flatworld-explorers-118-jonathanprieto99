@@ -47,10 +47,10 @@ int main()
                     if (x + xcambios[direccion]== -1 or x + xcambios[direccion]==xtablero + 1 or y + ycambios[direccion] == -1 or y + ycambios[direccion]==ytablero + 1)
                     {
                        // cout<<"test4"<<endl;
-                        if (!tablero[y][x])
+                        if (!tablero[x][y])
                         {
                           //  cout<<"test1"<<endl;
-                            tablero[y][x]=fuera=true;
+                            tablero[x][y]=fuera=true;
                             break;
                         }
                     }
