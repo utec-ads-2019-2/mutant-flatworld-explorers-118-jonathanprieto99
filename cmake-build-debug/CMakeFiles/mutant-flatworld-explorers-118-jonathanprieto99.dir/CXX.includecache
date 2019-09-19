@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jonathanprieto/Documents/GitHub/mutant-flatworld-explorers-118-jonathanprieto99/main.cpp
+iostream
+-
+vector
+-
+
